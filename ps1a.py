@@ -21,7 +21,7 @@ monthly_salary = annual_salary/12
 
 monthly_fixed_saving = portion_saved * monthly_salary
 
-down_payment_amount = 0.25 * total_cost
+down_payment_amount = portion_down_payment * total_cost
 
 while(current_savings < down_payment_amount):
     num_of_months += 1

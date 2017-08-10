@@ -19,7 +19,7 @@ total_cost = int(input("Enter the cost of your dream home:"))
 
 semi_annual_raise = float(input("Enter the semi­annual raise, as a decimal:"))
 
-down_payment_amount = 0.25 * total_cost
+down_payment_amount = portion_down_payment * total_cost
 
 monthly_salary = annual_salary/12
 
